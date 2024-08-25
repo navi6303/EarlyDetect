@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from PIL import Image
 import pickle
 import plotly.graph_objects as go
 
@@ -169,14 +168,7 @@ def main():
     input_data = add_sidebar()
 
     with st.container():
-        img=Image.open(r'logo.png')
-        col1, col2 = st.columns([1, 30])  
-
-        with col1:
-            st.image(img, width=50)
-
-        with col2:
-            st.title("Cancer Predictor")
+        st.title("Cancer Predictor")
         st.write("EarlyDetect is a web app designed to enhance early breast cancer detection through machine learning. By analyzing features from fine needle aspirate (FNA) images of breast masses, it predicts whether a case is benign or malignant. Leveraging the Wisconsin Breast Cancer dataset, EarlyDetect provides fast and accurate predictions. With an intuitive sidebar for easy data input, it offers healthcare professionals a user-friendly tool for making informed decisions, ultimately improving patient outcomes and reducing anxiety with reliable, timely diagnoses.")
     
     col1, col2 = st.columns([4,1])
