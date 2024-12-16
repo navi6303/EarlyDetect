@@ -19,9 +19,7 @@ A successful machine learning model could have significant business and healthca
 Developing a reliable machine learning model for breast cancer diagnosis can greatly enhance healthcare providers' diagnostic capabilities, leading to better patient care and advancing the field of medical research.
 
 ### ABOUT THE DATASET 
-The dataset features are derived from digitized images of fine needle aspirates (FNA) of breast masses. These features capture various characteristics of the cell nuclei present in the images. In the 3-dimensional space, the dataset's features are described by the study:
-
-K. P. Bennett and O. L. Mangasarian, "Robust Linear Programming Discrimination of Two Linearly Inseparable Sets," Optimization Methods and Software, vol. 1, 1992, pp. 23-34.
+The dataset features are derived from digitized images of fine needle aspirates (FNA) of breast masses. These features capture various characteristics of the cell nuclei present in the images.
 
     1. Attribute Information
     2. ID number
